@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Exo+2&family=Fascinate&family=Fredoka&family=Poppins&family=Preahvihear&family=Work+Sans&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+   
+}
+
+body{
+    background-color: dodgerblue;
+    font-family: 'Fredoka One', cursive;
+}
+h1{
+
+    font-size: 92px;
+    color: #FAB201;
+    font-weight: 900;
+    -webkit-text-stroke: 5px white;
+}
+
+
+.box{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow : 2px 2px Silver ;
+   
+}
+h4{
+    color: white;
+    font-size: 30px;
+}
+
+
+.container {
+   flex-direction: column;
+}
+
+.display {
+    
+    
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 85vh;
+  width: 100vw;
+
+}
+.flex{
+    display: flex;
+}
+.containerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 330px;
+    height: 50px;
+  
+}
+
+.containerflex {
+  margin: 40px;
+}
